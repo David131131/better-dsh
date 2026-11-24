@@ -1,0 +1,28 @@
+.DS_Store
+.env
+.env.*
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+/.release/
+
+# Rebuildable local environments and transient runtime state.
+/experiment-v0/.runtime/*
+!/experiment-v0/.runtime/package.json
+!/experiment-v0/.runtime/package-lock.json
+/plugin-v0/validation/venv/
+/plugin-v0/validation/venv-packaging-isolated/
+scratch/
+**/dsh-home/profiles/
+**/dsh-home/storages/
+**/dsh-home/.anonymous-user-id
+session.lock
+
+# Git work copies have a separate history. The baseline commit and patch are
+# archived alongside each run.
+/plugin-v0/validation/humanize/
+/plugin-v0/validation/packaging/
+/plugin-v0/validation/yocto-queue/
+/plugin-v0/validation/p-map/
+/plugin-v0/validation/**/repo/
